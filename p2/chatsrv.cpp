@@ -10,6 +10,8 @@
 #include <unistd.h>
 #include <netdb.h>
 
+/* Linux */
+
 enum { TCP_ERR, SO_REUSEADDR_ERR, CREATE_ERR, BIND_ERR, NONBLOCK_ERR, LISTEN_ERR, EPOLL_ERR, BUF_MAX = 1024 };
 
 class MasterSocket
