@@ -1,5 +1,5 @@
 CXX = g++
-CPPFLAGS = -Wall -std=c++11 -g
+CPPFLAGS = -std=c++11 -g
 LDFLAGS = -s -g
 CFILES_S = chatsrv.cpp
 CFILES_C = client.cpp
